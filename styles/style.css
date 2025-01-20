@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+.hide{
+    display: none;
+}
+
+
+/* navbar styles */
+
+.navbar {
+    width: 1160px;
+    height: 62px;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.school {
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-item {
+    align-items: center;
+    list-style: none;
+    margin: 26px auto;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#nav-link-1 {
+    color: orange;
+}
+
+#nav-link-2 {
+    color: skyblue;
+}
+
+#nav-link-3 {
+    color: #05D4DF;
+}
+
+#nav-link-4 {
+    color: #5D58EF;
+}
+
+#btn-1 {
+    background-color: orange;
+    color: white;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.nav-menu {
+    position: relative;
+    bottom: 100px;
+}
+
+/* banner-related styles */
+
+.banner {
+    margin: 0 auto;
+    width: 1100px;
+    height: 550px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.banner-sub-title {
+    font-size: 20px;
+    color: #111111;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.btn-2 {
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-menu{
+        margin-right: 20px;
+        position: relative;
+        right: 0px;
+        top: 15px;
+        left: 0px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        margin: 5px auto;
+        border-bottom: 1px solid yellow;
+    }
+    .sidebar{
+        display: none;
+    }
+    h3 {
+        display: none;
+    }
+    #btn-1{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        
+    }
+    .img{
+       
+    }
+    
+}
